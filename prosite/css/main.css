@@ -1,1 +1,147 @@
+@font-face {
+    font-family: "MountainBean";
+    src: url("../fonts/mountainbean.woff2") format("woff2");
+}
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "MountainBean", Arial, sans-serif;
+    background-color: #f7f2ea;
+    color: #2f241f;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3b2a22;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #7a4b2a;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #56331d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.gallery img {
+    width: 120px;
+    max-width: 100%;
+}
+
+.map-container iframe {
+    width: 100%;
+    min-height: 350px;
+    border: 0;
+}
+
+footer {
+    background-color: #3b2a22;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Tablet and mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small phones */
+@media (max-width: 500px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+        width: 100%;
+    }
+
+    .btn-primary {
+        width: 100%;
+        text-align: center;
+    }
+}
