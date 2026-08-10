@@ -1,1 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://andrewprimm.github.io/mountain-bean-cafe/prosite/index.html</loc>
+    </url>
+
+    <url>
+        <loc>https://andrewprimm.github.io/mountain-bean-cafe/prosite/about.html</loc>
+    </url>
+
+    <url>
+        <loc>https://andrewprimm.github.io/mountain-bean-cafe/prosite/subscription.html</loc>
+    </url>
+
+    <url>
+        <loc>https://andrewprimm.github.io/mountain-bean-cafe/prosite/gallery.html</loc>
+    </url>
+
+    <url>
+        <loc>https://andrewprimm.github.io/mountain-bean-cafe/prosite/contact.html</loc>
+    </url>
+
+</urlset>
